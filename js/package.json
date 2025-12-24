@@ -1,0 +1,29 @@
+{
+    "name": "kalyani-iot-skill_matrix",
+    "version": "0.0.1",
+    "description": "",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "react-scripts start",
+        "build": "npm run generate-meta-tag && react-scripts build",
+        "build:css": "tailwindcss -i ./src/index.css -o ./src/output.css --watch"
+    },
+    "author": "<unknown>",
+    "license": "UNLICENSED",
+    "private": true,
+    "devDependencies": {
+        "autoprefixer": "^10.4.22",
+        "postcss": "^8.5.6",
+        "tailwindcss": "^4.1.17"
+    },
+    "dependencies": {
+        "axios": "^1.13.2",
+        "date-fns": "^4.1.0",
+        "lucide-react": "^0.554.0",
+        "react-router-dom": "^7.9.6",
+        "recharts": "^3.4.1",
+        "xlsx": "^0.18.5",
+        "zustand": "^5.0.8"
+    }
+}
