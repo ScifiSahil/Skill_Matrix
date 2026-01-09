@@ -7,7 +7,7 @@ class PlantCodeAPI(JsonAPI):
     pass
 
 
-@Internal.mount(app=PlantCodeAPI, path="plant_code")
+@Internal.mount(app=PlantCodeAPI, path="plant_code_skill_matrix")
 def _mount_app():
     return PlantCodeAPI()
 
